@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inloggning</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1 class="display-4">Madlibs</h1>
+        <form class="kol2" action="madlibs.php" method="POST">
+
+            <label>Namn</label>
+            <input type="text" name="namn" placeholder="Tex erik12" required>
+            <label>Var bor du?</label>
+            <input type="text" name="bostad" required>
+            <label>Hur mår du?</label>
+            <input type="text" name="mår" required>
+            <label>Skriv ett adjektiv</label>
+            <input type="text" name="adjektiv" required>
+            <button class="primary">Skicka</button>
+
+        </form>
+        
+
+        
+    </div>
+</body>
+</html>
