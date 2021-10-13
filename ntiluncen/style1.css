@@ -8,6 +8,17 @@ left: 40%;
 border-style: dashed;
 }
 
+
+/* LUNCH */
+
+
+
+
+
+/* ALL DETTA CSS ÄR FÖR GRID(BOXARNA) */
+
+
+
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -63,8 +74,6 @@ border-style: dashed;
 	height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
@@ -91,8 +100,6 @@ border-style: dashed;
 	letter-spacing: 1px;
 	font-size: 68.5%;
 }
-
-/* Individual effects */
 
 /*---------------*/
 /***** Lily *****/
@@ -300,7 +307,7 @@ section {
 	font-size: 45%;
 }
 
-/* Demo links */
+
 .codrops-demos {
 	clear: both;
 	padding: 1em 0 0;
@@ -371,7 +378,6 @@ section {
 	content: "\e004";
 }
 
-/* Related demos */
 .related {
 	clear: both;
 	padding: 6em 1em;
@@ -407,7 +413,6 @@ section {
 	text-align: left;
 }
 
-/* Demo ad design */
 body #cdawrap {
 	background: none;
 	top: 50px;
@@ -430,3 +435,6 @@ body #cda-remove {
 		display: none;
 	}
 }
+
+/* ALL DETTA CSS ÄR FÖR GRID(BOXARNA) */
+
