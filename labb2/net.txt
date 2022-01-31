@@ -1,3 +1,0 @@
-ip:asd
-subnetmask: zsxd
-gw: asd
